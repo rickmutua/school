@@ -57,3 +57,58 @@
   padding-top: 20px;
   padding-bottom: 20px;
 }
+
+#contact {
+  color: blue;
+  border-bottom: 1px solid purple;
+}
+
+#visit {
+  color: blue;
+  border-bottom: 1px solid purple;
+}
+
+#contact-us {
+  border: 1px solid lightgrey;
+  width: 545px;
+}
+
+#visit-us {
+  border: 1px solid lightgrey;
+  margin-left: 10px;
+  width: 545px;
+}
+
+h2 {
+  color: blue;
+}
+
+h5 {
+  font-weight: bold;
+}
+
+h6 {
+  font-weight: bold;
+  color: blue;
+  font-style: italic;
+}
+
+#the-school {
+  border-bottom: 1px solid purple;
+}
+
+#admi {
+  border-bottom: 1px solid purple;
+}
+
+#newsandevents {
+  border-bottom: 1px solid purple;
+}
+
+#fun {
+  border-bottom: 1px dotted lightblue;
+}
+
+#games {
+  border-bottom: 1px dotted lightblue;
+}
