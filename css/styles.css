@@ -1,23 +1,25 @@
 #rotating-item-wrapper {
     position: relative;
-    width: 700px;
-    height: 347px;
+    width: 670px;
+    height: 367px;
+    -moz-box-shadow: 1px 2px 4px rgba(0, 0, 0,0.5);
+    -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    background-color: white;
 }
 .rotating-item {
     display: none;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 10px;
+    left: 10px;
 }
 
 #top {
-
   margin-top: 30px;
 }
 
 #nav {
   background-color: blue;
-
   padding-bottom: 5px;
 }
 
@@ -25,8 +27,22 @@
   color: white;
 }
 
-#social {
-  float: right;
+#school-name {
+  color: blue;
+  font-size: 22px;
+}
+
+#motto {
+  font-style: italic;
+}
+
+#welcome {
+  border: 1px solid blue;
+  background-color: blue;
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 18px;
 }
 
 #about-us {
@@ -83,6 +99,10 @@ h2 {
   color: blue;
 }
 
+h3 {
+  color: blue;
+}
+
 h5 {
   font-weight: bold;
 }
@@ -101,7 +121,7 @@ h6 {
   border-bottom: 1px solid purple;
 }
 
-#newsandevents {
+#news-and-events {
   border-bottom: 1px solid purple;
 }
 
@@ -109,6 +129,56 @@ h6 {
   border-bottom: 1px dotted lightblue;
 }
 
-#games {
+#community {
   border-bottom: 1px dotted lightblue;
+}
+
+#news-events {
+  border: 1px solid lightgrey;
+}
+
+#upcoming-events {
+  border: 1px solid lightgrey;
+  margin-left: 10px;
+  border-bottom: 1px solid purple;
+}
+
+#welcome-admission {
+  font-size: 20px;
+}
+
+#mission {
+  text-align: center;
+  border-bottom: 1px dotted purple;
+}
+
+#vision {
+  text-align: center;
+  border-bottom: 1px dotted purple;
+}
+
+#mission-body {
+  text-align: center;
+}
+
+#vision-body {
+  text-align: center;
+}
+
+#apply {
+  background-color: blue;
+  color: white;
+  width: 250px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+#come {
+  background-color: green;
+  color: white;
+  width: 250px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  text-align: center;
 }
